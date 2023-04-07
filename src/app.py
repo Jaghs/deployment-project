@@ -4,7 +4,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the model
-with open('C:/Users/Jagvir Dhesi/lighthouselabs/projects/deployment-project/data/loan_model.pkl', 'rb') as file:
+with open('loan_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 @app.route('/')
@@ -31,4 +31,3 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
-
