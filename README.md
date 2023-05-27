@@ -1,4 +1,4 @@
-# Loan Predictions & Deployment Project
+# Loan Predictions & Deployment Project 🔮
 
 
 ### [Assignment](assignment.md)
