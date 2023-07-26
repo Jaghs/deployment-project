@@ -14,7 +14,7 @@ Which applicants are more likely to get a loan:
 4. Properties in urban areas with high growth perspectives
 
 ## EDA 🔎
-I firstly noticed how the applicant and co-applicant data was not completely normally distributed. This was altered through a log transformation to normalize the data. Missing values for categorical variables were imputed with the mode, and numerical columns were imputed with the median since we have outliers. Applicant and co-applicant income were joined to create a new feature 'Total_Income'. The data set was vaised towards males but when looking at gender in terms of approved and non-approved it was quite similar.
+I firstly noticed how the applicant and co-applicant data was not completely normally distributed. This was altered through a log transformation to normalize the data. Missing values for categorical variables were imputed with the mode, and numerical columns were imputed with the median since we have outliers. Applicant and co-applicant income were joined to create a new feature 'Total_Income'. The data set was baised towards males but when looking at gender in terms of approved and non-approved it was quite similar.
 
 ![income_loan_scatter_plot](./images/income_loan_scatter_plot.png)
 
